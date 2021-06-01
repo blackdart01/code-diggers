@@ -1,0 +1,274 @@
+.navbar {
+  background-color: rgb(255, 200, 200) !important;
+  box-shadow: 0 5px 20px 2px;
+  font-size: 25px;
+}
+.nav-link {
+  color: #f78077 !important;
+}
+.logo-name {
+  width: 60%;
+  /* height: auto; */
+}
+.container-fluid a {
+  display: flex;
+  flex-direction: row;
+}
+.container-fluid a h4 {
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 25px;
+}
+.nav-link:hover,
+.active {
+  color: #e46057 !important;
+  background-color: rgba(247, 128, 119, 0.4);
+  transition: 500ms;
+}
+body {
+  background: rgb(252, 223, 223) !important;
+  font-size: 24px !important;
+}
+.logo-name {
+  color: #e46057 !important;
+  margin-top: -5px;
+}
+.head {
+  text-align: center;
+}
+.head p {
+  margin: 10% auto -5% auto;
+  font-size: 5em;
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+.footer-main {
+  background: black;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  text-align: center;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.6);
+}
+.wrap-section {
+  margin: 50px 0px;
+  justify-content: center;
+}
+.top-bg {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  z-index: -100;
+  margin-top: -15%;
+  background: #7ba1aa;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+  /* #7ba1aa; */
+  /* rgb(223, 235, 252); */
+}
+.cardd {
+  margin: 20% auto 0 auto;
+  display: flex;
+  width: 75%;
+  /* border: 5px solid white; */
+  padding: 20px 20px 0px 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #b5dbe4;
+  /* #f0f5f7; */
+  /* rgb(195, 220, 255); */
+}
+.cardd-img {
+  width: 65%;
+  position: absolute;
+  /* top: -%; */
+  margin-top: -10%;
+}
+.cardd-img img {
+  width: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+.cardd-data {
+  margin-top: 25%;
+
+  /* background: rgb(223, 235, 252); */
+  padding: 0 10% 20px 10%;
+}
+.cardd-data-head {
+  padding-top: 10%;
+  font-size: 2em;
+  font-weight: 500;
+}
+.cardd-data-meta {
+  padding-top: 5%;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+/* ************** */
+.wrap-main-card {
+  background: #b5dbe4;
+  /* rgb(252, 223, 223); */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto 100px auto;
+}
+.main-card {
+  display: flex;
+  width: 45%;
+  text-align: center;
+  margin: 50px 30px 100px 30px;
+  flex-direction: column;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.4);
+}
+.img-card {
+  margin-bottom: -40%;
+}
+.img-card img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  object-position: 0 10%;
+  box-shadow: 2px -5px 10px 2px rgba(0, 0, 0, 0.6);
+  border-radius: 10px 10px 0 0;
+}
+.main-card:hover {
+  box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.6);
+  transition: 300ms;
+}
+#name-txt {
+  font-size: 2em;
+  color: #f78077;
+  font-weight: 600;
+}
+#sub-name-txt,
+#meta-txt {
+  font-size: 1.2em;
+  color: rgb(170, 99, 6);
+  font-weight: 500;
+}
+#meta-txt {
+  margin-bottom: 10%;
+}
+
+.main-right-content {
+  width: 40%;
+  margin: 0px 30px 0 50px;
+}
+.content-head {
+  color: #f78077;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+/* *************** */
+
+footer .languages,
+footer .courses {
+  margin-top: 50px;
+  width: 50%;
+  height: 300px;
+}
+.languages p,
+.courses p {
+  font-size: 2em;
+  color: white;
+}
+.languages {
+  margin: 30px;
+  margin-top: 0px;
+}
+.footer-main-languages-list {
+  padding: 0;
+}
+.footer-main-languages-list li {
+  color: rgb(5, 216, 5);
+  font-size: 1em;
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .head p {
+    font-size: 3em;
+    margin-top: 30%;
+  }
+  .cardd {
+    width: 90%;
+  }
+  .cardd-data-head {
+    font-size: 1.2em;
+  }
+  .cardd-data-meta {
+    font-size: 0.7em;
+  }
+  /* ************** */
+  .wrap-main-card {
+    flex-direction: row;
+    width: 90%;
+    /* margin-right: 20px; */
+  }
+  .main-card {
+    width: 100%;
+    margin: 30px 10px 0 10px;
+  }
+  .main-right-content {
+    width: 100% !important;
+    height: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    margin: -120px 20px 0 20px !important;
+  }
+
+  #name-txt {
+    font-size: 1.5em;
+    color: #f78077;
+    font-weight: 500;
+  }
+  #sub-name-txt,
+  #meta-txt {
+    font-size: 1em;
+    font-weight: 450;
+  }
+  #meta-txt {
+    margin-bottom: 10%;
+  }
+
+  .main-right-content {
+    width: 75%;
+    margin: -30% 30px 30px 50px;
+  }
+  .content-head {
+    font-size: 1.75em;
+  }
+  .content-sub-head {
+    font-size: 1.3em;
+  }
+  /* ************** */
+  footer .languages,
+  footer .courses {
+    width: 60%;
+    height: 250px;
+  }
+  .languages p,
+  .courses p {
+    font-size: 1em;
+    margin-right: 20px;
+  }
+  .footer-main-languages-list li {
+    font-size: 0.6em;
+    margin-right: 20px;
+  }
+  .nav-link {
+    font-size: 0.7em;
+  }
+}
+.home-first-bg {
+  background-image: url("code diggers.png");
+  background-size: 100% 100vh;
+}
