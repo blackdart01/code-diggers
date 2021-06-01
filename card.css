@@ -1,0 +1,179 @@
+.navbar {
+  background-color: rgb(255, 200, 200) !important;
+  box-shadow: 0 5px 20px 2px;
+  font-size: 25px;
+}
+.nav-link {
+  color: #f78077 !important;
+}
+.logo-name {
+  width: 60%;
+  /* height: auto; */
+}
+.container-fluid a {
+  display: flex;
+  flex-direction: row;
+}
+.container-fluid a h4 {
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 25px;
+}
+.nav-link:hover,
+.active {
+  color: #e46057 !important;
+  background-color: rgba(247, 128, 119, 0.4);
+  transition: 500ms;
+}
+body {
+  background: rgb(252, 223, 223) !important;
+  font-size: 24px !important;
+}
+.logo-name {
+  color: #e46057 !important;
+  margin-top: -5px;
+}
+.head {
+  text-align: center;
+}
+.head p {
+  margin: 10% auto -5% auto;
+  font-size: 5em;
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.5);
+}
+
+.footer-main {
+  background: black;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  text-align: center;
+  box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.6);
+}
+
+footer .languages,
+footer .courses {
+  margin-top: 50px;
+  width: 50%;
+  height: 300px;
+}
+.languages p,
+.courses p {
+  font-size: 2em;
+  color: white;
+}
+.languages {
+  margin: 30px;
+  margin-top: 0px;
+}
+.footer-main-languages-list {
+  padding: 0;
+}
+.footer-main-languages-list li {
+  color: rgb(5, 216, 5);
+  font-size: 1em;
+  list-style-type: none;
+}
+
+.cards {
+  display: flex;
+  /* width: 100%; */
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  height: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: rgb(252, 223, 223);
+}
+.cardd {
+  margin: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  width: 50%;
+  height: auto;
+  background-color: rgb(252, 223, 223);
+  /* rgb(253, 214, 214); */
+  text-align: center;
+  box-shadow: 10px 10px 50px 2px rgba(0, 0, 0, 0.2);
+}
+.cardd:hover {
+  transition: 300ms;
+  box-shadow: 10px 10px 30px 5px rgba(0, 0, 0, 0.6);
+}
+.cardd-img img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  /* height: 300px; */
+}
+.cardd-txt {
+  font-size: 1.5em;
+  font-weight: 500;
+  padding: 30px 10px 200px 10px;
+}
+.inner-p {
+  font-size: 0.8em;
+  width: 75%;
+  text-align: left;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  .head p {
+    margin-top: 30%;
+    font-size: 2em;
+  }
+  .cards {
+    margin-top: 10%;
+    /* width: 90%; */
+    /* flex-wrap: wrap;
+    display: flex;*/
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .cardd-txt {
+    width: 100%;
+    font-size: 1.1em;
+    padding-bottom: 25px;
+  }
+  .inner-p {
+    width: 90%;
+    font-size: 0.7em;
+    margin: 0 20px 0 10px;
+  }
+  .cardd {
+    width: 90%;
+    margin-top: -10px;
+  }
+  #card-one {
+    margin-top: 20px;
+  }
+
+  footer .languages,
+  footer .courses {
+    width: 50%;
+    height: 250px;
+  }
+  .courses {
+    margin-right: 20px;
+  }
+  .languages p,
+  .courses p {
+    font-size: 0.8em;
+    margin-right: 20px;
+  }
+  .footer-main-languages-list li {
+    margin-right: 20px;
+    font-size: 0.6em;
+  }
+  .nav-link {
+    font-size: 0.7em;
+  }
+}
+.home-first-bg {
+  background-image: url("code diggers.png");
+  background-size: 100% 100vh;
+}
