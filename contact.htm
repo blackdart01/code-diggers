@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <section class="navbar_c">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand logo-name" href="index.htm">
+                    <img src="images\code diggers logo.png" alt="" width="40" height="40"
+                        class="d-inline-block align-text-top ">
+                    <h4>Code Diggers
+                    </h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.htm">Home</a>
+                        <a class="nav-link" href="features.htm">Features</a>
+                        <a class="nav-link" href="about.htm">About</a>
+                        <a class="nav-link active" href="contact.htm">Contact</a>
+                        <a class="nav-link" href="materials.htm">Materials</a>
+                        <a class="nav-link" href="tests.htm">Tests</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div class="head">
+        <p>CONTACT US</p>
+    </div>
+
+    <section class="wrap-main-form-card">
+        <div class="main-form-card">
+            <div class="main-form-txt">
+                <p class="x1" style="text-transform: uppercase;font-weight:600;font-size:1.2em">talk to the team</p>
+                <p class="main-form-meta-text">
+                    Still
+                    Confused how Code Diggers can help you achieve your goals? Talk to
+                    the team
+                </p>
+            </div>
+            <div class="main-form-img">
+                <img src="images\meeting-1019875__340.webp" alt="">
+            </div>
+        </div>
+        <div class="main-form-form">
+            <form class="main-form-form-form" method="post" action="formtomail.php" enctype="multipart/form-data">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Name" required><br>
+                <label for="email">E-mail:</label><br>
+                <input type="text" id="email" name="email" placeholder="example@gmail.com" required><br>
+                <label for="mobno">Mobile Number:</label><br>
+                <input type="tel" id="mobno" name="mobno" placeholder="12345-67890" required><br>
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required><br>
+                <label for="msg">Query/Message:</label><br>
+                <input type="text" id="msg" name="msg" required><br>
+                <input class="form-btn" type="submit" value="Send" name="send">
+            </form>
+        </div>
+    </section>
+    <div class="working-details">
+        <h4>Working Hours</h4>
+        <div class="timing-mtf ft">
+            <h5>Mon - Fri</h5>
+            <p>11:00 AM to 5:00 PM</p>
+        </div>
+        <div class="timing-sat ft">
+            <h5>Saturday</h5>
+            <p>11:00 AM to 3:00 PM</p>
+        </div>
+        <div class="timing-sun ft">
+            <h5>Sunday</h5>
+            <p>12:00 PM to 4:00 PM</p>
+        </div>
+    </div>
+
+    <footer class="wrap">
+        <footer class="footer-main">
+            <div class="languages">
+                <p> Languages</p>
+                <ul class="footer-main-languages-list">
+                    <li>C Programming</li>
+                    <li>Cpp Programming</li>
+                    <li>Core Java</li>
+                    <li>Java GUI</li>
+                    <li>and many more...</li>
+                </ul>
+            </div>
+            <div class="courses">
+                <p> Courses</p>
+                <ul class="footer-main-languages-list">
+                    <li>Data Structure and Algorithm</li>
+                    <li>Java Multithreading</li>
+                    <li>Python Data Analyst</li>
+                    <li>Web Development</li>
+                    <li>and many more...</li>
+                </ul>
+            </div>
+            <!-- </div> -->
+        </footer>
+    </footer>
+</body>
+
+</html>
